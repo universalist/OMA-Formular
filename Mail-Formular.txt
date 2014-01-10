@@ -1,0 +1,23 @@
+Von: [vorname][nachname] 
+<[email-763]>
+Betreff: OMA
+
+Vorname, Nachname: [vorname] [nachname]
+
+Straße, Hausnummer: [strasse] [hausnummer]
+PLZ, Ort: [postleitzahl] [ort]
+
+Geburtsdatum:[geburtsdatum]
+
+Staatsangehörigkeit: [staatsangehoerigkeit]
+
+E-Mail: [email-763]
+Telefon: [telefon]
+
+Exmitglied: [exmitglied]
+Schonmal abgelehnt: [abgelehnt]
+letzte Gliederung: [ex-gliederung]
+
+Gewünschter Mitgliedsbeitrag: [beitrag]
+--
+Diese E-Mail wurde von einem Kontaktformular von Serviceportal Piratenpartei Sachsen (http://service.piraten-sachsen.de) gesendet

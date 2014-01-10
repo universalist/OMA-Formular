@@ -1,0 +1,67 @@
+<h2>Persönliche Daten</h2>
+<p>Vorname:<br />
+    [text* vorname 23/] </p>
+
+<p>Nachname:<br />
+    [text* nachname 23/] </p>
+
+<p>Strasse, Hausnummer:<br />
+[text* strasse 23/] [text* hausnummer 3/]
+</p>
+
+<p>Postleitzahl, Ort:<br />
+[text* postleitzahl 5/5] [text* ort 21/]
+</p>
+
+<p>Geburtsdatum:<br />
+[text* geburtsdatum 10/10]<br />
+Mitglied in der Piratenpartei kann jede Person werden, die das 16. Lebensjahr vollendet hat. Bei minderjährigen Antragstellern muss dieser <a href="http://wiki.piratenpartei.de/wiki/images/4/4b/SachsenAufnahmeformular.pdf" title="Bitte Papierantrag ausfüllen">Antrag schriftlich eingereicht</a> <u>und von einem Erziehungsberechtigten unterschrieben werden</u>. </p>
+
+<p>Staatsangehörigkeit:<br />
+[text* staatsangehoerigkeit 23/]<br />
+Der Besitz der deutschen Staatsbürgerschaft ist für eine Mitgliedschaft nicht notwendig.
+ </p>
+
+<p>E-Mail-Adresse:<br />
+   [email* email-763 23/]<br />
+Normalerweise ist die E-Mail-Adresse optional. Damit wir Dir aber eine Bestätigung schicken können, ist sie im Online-Mitgliedsantrag zwingend. Möchtest Du keine E-Mail-Adresse angeben, nutze bitte den <a href="http://wiki.piratenpartei.de/wiki/images/4/4b/SachsenAufnahmeformular.pdf" title="Bitte Papierantrag ausfüllen">Papierantrag</a>.</p>
+<p>Einladungen zu Parteitagen und Aufstellungsversammlungen werden an die angegebene E-Mail-Adresse gesendet.</p>
+
+<p>Telefon:<br />
+[text telefon placeholder 23/ "optional"]</p>
+
+<h2>Vorherige Mitgliedschaft</h2>
+<table>
+<tbody><tr>
+<td>Ich war schon einmal Mitglied in der Piratenpartei*:</td>
+<td nowrap="">[radio exmitglied "ja" "nein"]</td>
+</tr>
+<tr>
+<td>Ein Antrag auf Mitgliedschaft in der Piratenpartei wurde schon einmal abgelehnt*:</td>
+<td nowrap="">[radio abgelehnt "ja" "nein"]</td>
+</tr>
+<tr>
+<td colspan="2">Bitte nenne hier deine letzte ehemalige Gliederung:
+[text ex-gliederung 23/ "-"]
+Bei falscher Beantwortung dieser Fragen kommt eine Mitgliedschaft nicht zustande.</td>
+</tr>
+</tbody></table>
+
+<h2>Mitgliedsbeitrag</h2>
+<p>Der Mitgliedsbeitrag beträgt derzeit 48,- € jährlich und ist zum 1.1. des Jahres im Voraus fällig. Im Beitrittsjahr wird er anteilig ab dem Beitrittsmonat berechnet und ist sofort fällig. Es wird ein freiwilliger Beitrag in Höhe von 1% des Nettoeinkommens empfohlen. Menschen mit geringem Einkommen zahlen auf Antrag nur 12,-€ Beitrag pro Jahr</p>
+<p>Ich möchte jährlich folgenden Mitgliedsbeitrag bezahlen:
+[text beitrag /12 "48€"]</p>
+
+<h1>Hinweise</h1>
+<p>Nach der Übermittlung Deines Antrags erhältst Du von uns eine Bestätigungsmail mit der Bitte um Überweisung des Beitrages und die Kontoverbindung. Deine Mitgliedschaft beginnt formell erst nach Annahme des Aufnahmeantrages und der Entrichtung des ersten Mitgliedsbeitrages.</p>
+
+<p>Mit der Antragstellung werden die <a href="https://wiki.piratenpartei.de/SN:Dokumente/Satzung" target="_BLANK" title="Satzung des LV Sachsen">Satzungen des Landesverbandes</a> und der <a href="http://wiki.piratenpartei.de/Bundessatzung" target="_BLANK" title="Satzung der Piratenpartei Deutschland">Bundespartei</a> in ihrer jeweils gültigen Fassung sowie die sonstigen mit ihnen verbundenen Statuten (Finanzordnung, Schiedsordnung etc) akzeptiert.</p>
+
+<p>Die Piratenpartei Deutschland verarbeitet die in diesem Aufnahmeantrag enthaltenen Angaben zur Person ausschließlich für interne Zwecke der Partei. Nach § 4 des Bundesdatenschutzgesetzes vom 14. August 2009 bedarf dies Deiner vorherigen schriftlichen Einwilligung, die Du gleichzeitig mit dem Antrag auf Mitgliedschaft in der Partei erteilst. Es wird zugesichert, dass Deine Daten unter strikter Beachtung der Bestimmungen des Bundesdatenschutzgesetzes verarbeitet werden.</p>
+
+<p>[acceptance acceptance-bdsg] Ich stimme der Verarbeitung meiner Daten nach §4 Bundesdatenschutzgesetz zu.
+</p>
+
+<p>Bitte gib die Zeichen [captchac captcha-662 size:m fg:#ffffff bg:#ffaa2b ] in das Eingabefeld ein:<br />
+[captchar captcha-662]</p>
+<p>[submit "Senden"]</p>
